@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>Js practice</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+		</script>
+		<script src="./java/myScript2.js"></script>
+		<link href="./css/style2.css" rel="stylesheet" type="text/css">				
+	</head>
+
+	<body>
+		<main>
+			<div>
+				<p id="MyP">Welcome to my Js's practice</p>
+				<button type="button" onclick="Aka()">confirm</button>
+				<input type="button" value="prompt" onclick="Aka2()"/>
+				<input type="button" value="alert" onclick="Aka3('Amy','Designer')"/>
+				<input type="button" value="おはよう" onclick="Aka4('Good morning')"/>
+				<input type="button" value="おやすみ" onclick="Aka4('Good night')"/>
+				<input type="button" value="WhileRun" onclick="Aka6()"/>
+				<input type="button" value="forRun" onclick="Aka7()"/>
+				<input type="button" value="break" onclick="Aka8()"/>
+				<input type="button" value="continue" onclick="Aka9()"/>
+				<p id="Demo"></p>
+			</div>
+			<div>
+				<script>
+					document.write(Aka5());
+				</script>
+			</div>
+			<div class="aka1011" onmouseover="Aka10(this)" onmouseout="Aka11(this)">
+				Mouse Over Me　←
+			</div>		
+			<img id="myimage" onmousedown="Aka12()" onmouseup="Aka13()" src="./image/bulboff.gif" width="100" height="180" /> 
+			<label>君の名：</label>
+			<input type="text" id="urName" value="" onfocus="Aka14(this)" onblur="Aka15(this)" onchange="Aka16()">
+			
+			<h1 id="time">x</h1>
+			<script>
+				time();
+				function time(){
+					var now = new Date();
+					document.getElementById("time").innerHTML = now.toLocaleString();
+				}
+				setInterval('time()',1000);
+			</script>
+
+		</main>
+	</body>
+</html> 
