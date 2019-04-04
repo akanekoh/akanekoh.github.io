@@ -3,8 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Progate</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sample2.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     <!-- viewportを読み込むための<meta>タグを記述してください -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <header>
@@ -12,7 +15,11 @@
         <div class="header-left">
           <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
         </div>
+        <!--add  menuicon for smartphone-->
+        <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
+          <a href="#">レッスン</a>
+          <a href="#">登録</a>
           <a href="#" class="login">ログイン</a>
         </div>
       </div>
@@ -65,6 +72,8 @@
             </div>
             <p class="txt-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
           </div>
+          <!--float削除のため-->
+          <div class="clear"></div>
         </div>
       </div>
     </div>
