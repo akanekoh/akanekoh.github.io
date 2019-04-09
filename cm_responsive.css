@@ -10,11 +10,7 @@
 /* スマホ向けレイアウト */
 
 @media(max-width:670px){
-  .box {
-    width: 100%;
-    font-size: 22px;
-  }
-
+ 
   #btn { 
     width: 100%;
     padding: 30px;
@@ -29,5 +25,15 @@
     font-size: 22px;
     width: 170px;
   }
+
+  .box {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .main_wrapper h1{
+    font-size: 24px;
+  }
+
 
 }
