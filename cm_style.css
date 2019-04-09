@@ -1,0 +1,76 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }  
+
+*{
+  box-sizing:border-box;
+}
+
+/* ------------------------------- */
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.container {
+    /* max-width: 1180px; */
+     /* widthを100%にしてください */
+    width: 80%;
+    padding: 55px;
+    margin: 0 auto;
+    border: 3px solid #eee;
+  }
+    
+/* ------------------------------- */
+
+.main_wrapper{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.main_wrapper h1{
+  font-size: 20px;
+}
+
+.main_wrapper input{
+  margin: 30px 0px 15px 0px;
+}
+
+#btn { 
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  padding: 5px;
+}
+
+.box {
+  width: 200px;
+  height: 80px;
+  padding: 25px;
+  margin: 20px auto;
+  color: #fff;
+}
+
+.jpy_box{
+  background-color: #3b5998;
+}
+
+.twd_box{
+  background-color: #5dca88;
+}
+
