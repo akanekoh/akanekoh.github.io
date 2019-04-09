@@ -25,15 +25,17 @@ a {
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #b3aeb5;
 }
 
 .container {
     /* max-width: 1180px; */
      /* widthを100%にしてください */
     width: 80%;
-    padding: 25px;
+    padding: 35px;
     margin: 0 auto;
     border: 3px solid #eee;
+    background-color: #fff;
   }
     
 /* ------------------------------- */
