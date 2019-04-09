@@ -31,7 +31,7 @@ body {
     /* max-width: 1180px; */
      /* widthを100%にしてください */
     width: 80%;
-    padding: 55px;
+    padding: 25px;
     margin: 0 auto;
     border: 3px solid #eee;
   }
@@ -39,7 +39,7 @@ body {
 /* ------------------------------- */
 
 .main_wrapper{
-  margin-top: 15px;
+  margin-top: 50px;
   text-align: center;
 }
 
@@ -59,7 +59,13 @@ body {
   margin: 0 auto;
   width: 50px;
   padding: 5px;
+  letter-spacing: 10px;
 }
+
+#btn:hover {
+  cursor:pointer;
+}
+
 
 .box {
   width: 200px;
