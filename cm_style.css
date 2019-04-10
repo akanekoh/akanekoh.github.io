@@ -70,31 +70,34 @@ body {
   font-size: 16px;
 }
 
+/* akanekoh.github.io/ */
+
 .fr_wrapper{
-  background-image: url(akanekoh.github.io/image/france.jpg);
+  background-image: url(image/france.jpg);
   background-size: cover;
 }
 
 .ja_wrapper{
-  background-image: url(akanekoh.github.io/image/japan.jpg);
+  background-image: url(image/japan.jpg);
   background-size: cover;
   display: none;
 }
 
 .tw_wrapper{
-  background-image: url(akanekoh.github.io/image/taiwan.jpg);
+  background-image: url(image/taiwan.jpg);
   background-size: cover;
   display: none;
 }
 
-.taiwan_wrapper h2{
-  color:#5f5d60
+.tw_wrapper h2{
+  color:#5f5d60;
 }
+
 
 .change_box{
   margin-top: 20px;
   padding: 20px;
-  border: 3px solid #eee;
+  /* border: 3px solid #eee; */
   background-color: #fff;
   opacity: 0.9;
 }
@@ -104,7 +107,6 @@ body {
   cursor: pointer;
   padding: 8px 30px;
   background-color: rgba(49, 40, 40,0.8);
-  box-shadow: 0px 5px #279C56;
   border-radius: 3px;
   color: #fff;
   font-size: 15px;
@@ -113,6 +115,20 @@ body {
   margin-top: 20px;
   letter-spacing: 2px;
 }
+
+.france_btn{
+  box-shadow: 0px 5px #6581be;
+}
+
+.japan_btn{
+  box-shadow: 0px 5px rgb(250, 81, 81);
+}
+
+.taiwan_btn{
+  box-shadow: 0px 5px #52cea9;
+}
+
+
 
 .btn:active{
   position: relative;
