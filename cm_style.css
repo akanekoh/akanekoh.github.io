@@ -64,8 +64,9 @@ body {
 }
 
 .wrapper input{
+  width: 180px;
   margin: 30px 0px 30px 0px;
-  padding: 5px 0;
+  padding: 10px 0;
   padding-left: 5px;
   font-size: 16px;
 }
@@ -73,18 +74,18 @@ body {
 /* akanekoh.github.io/ */
 
 .fr_wrapper{
-  background-image: url(image/france.jpg);
+  background-image: url(akanekoh.github.io/image/france.jpg);
   background-size: cover;
 }
 
 .ja_wrapper{
-  background-image: url(image/japan.jpg);
+  background-image: url(akanekoh.github.io/image/japan.jpg);
   background-size: cover;
   display: none;
 }
 
 .tw_wrapper{
-  background-image: url(image/taiwan.jpg);
+  background-image: url(akanekoh.github.io/image/taiwan.jpg);
   background-size: cover;
   display: none;
 }
@@ -112,9 +113,11 @@ body {
   font-size: 15px;
   text-align: center;
   font-weight: bold;
-  margin-top: 20px;
+  margin-bottom: 20px;
   letter-spacing: 2px;
 }
+
+
 
 .btn:active{
   position: relative;
@@ -127,22 +130,25 @@ body {
 }
 
 
-
 .change_btn{
   background-color: #5f5d60;
   box-shadow: 0px 5px #b3aeb5;
+  width:200px;
+  margin: 0 auto;
+  display: block;
 }
 
 .box {
   width: 200px;
   height: 80px;
   padding: 15px;
-  margin: 20px auto;
+  margin: 30px 10px;
   color: #fff;
+  display: inline-block;
 }
 
 .box p{
-  font-size: 16px;
+  font-size: 12px;
   padding-bottom:3px; 
 }
 
@@ -156,4 +162,8 @@ body {
 
 .eur_box{
   background-color: #3b5998;
+}
+
+.from_text{
+  font-size: 20px;
 }

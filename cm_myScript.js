@@ -35,6 +35,7 @@ function changeJpyPrice(){
     var jpyPrice = document.getElementById("jpyPriceIn").value;
     eur=jpyToEur(jpyPrice);
     twd=jpyToTwd(jpyPrice);
+    eur=eur.toFixed(2);
     document.getElementById("eurPriceOutJ").innerHTML=eur;
     document.getElementById("twdPriceOutJ").innerHTML=Math.round(twd);
 }
@@ -54,6 +55,7 @@ function changeTwdPrice(){
     var twdPrice = document.getElementById("twdPriceIn").value;
     eur=twdToEur(twdPrice);
     jpy=twdToJpy(twdPrice);
+    eur=eur.toFixed(2);
     document.getElementById("eurPriceOutT").innerHTML=eur;
     document.getElementById("jpyPriceOutT").innerHTML=Math.round(jpy);
 }
