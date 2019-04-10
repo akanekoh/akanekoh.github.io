@@ -111,6 +111,7 @@ body {
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 .btn:active{
