@@ -1,0 +1,169 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  }  
+
+*{
+  box-sizing:border-box;
+}
+
+/* ------------------------------- */
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.container {
+  /* max-width: 1180px; */
+  /* widthを100%にしてください */
+  width: 80%;
+  padding:0 ;
+  margin: 0 auto;
+  }
+    
+/* ------------------------------- */
+
+
+.countrymenu_wrapper{
+  padding: 5px;
+  margin: 10px;
+}
+
+.countrymenu_wrapper h1{
+  font-size: 20px;
+}
+
+.wrapper{
+  padding: 80px 0 100px 0;;
+  text-align: center;
+  
+}
+
+.wrapper h2{
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.wrapper h3{
+  font-size: 18px;
+}
+
+.wrapper input{
+  width: 180px;
+  margin: 30px 0px 30px 0px;
+  padding: 10px 0;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+/* akanekoh.github.io/ */
+
+.fr_wrapper{
+  background-image: url(akanekoh.github.io/image/france.jpg);
+  background-size: cover;
+}
+
+.ja_wrapper{
+  background-image: url(akanekoh.github.io/image/japan.jpg);
+  background-size: cover;
+  display: none;
+}
+
+.tw_wrapper{
+  background-image: url(akanekoh.github.io/image/taiwan.jpg);
+  background-size: cover;
+  display: none;
+}
+
+.tw_wrapper h2{
+  color:#5f5d60;
+}
+
+
+.change_box{
+  margin-top: 20px;
+  padding: 20px;
+  /* border: 3px solid #eee; */
+  background-color: #fff;
+  opacity: 0.9;
+}
+
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 30px;
+  background-color: rgba(49, 40, 40,0.8);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.btn:hover {
+  cursor:pointer;
+}
+
+
+.change_btn{
+  background-color: #5f5d60;
+  box-shadow: 0px 5px #b3aeb5;
+  width:200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.box {
+  width: 200px;
+  height: 80px;
+  padding: 15px;
+  margin: 30px 10px;
+  color: #fff;
+  display: inline-block;
+}
+
+.box p{
+  font-size: 12px;
+  padding-bottom:3px; 
+}
+
+.jpy_box{
+  background-color: red;
+}
+
+.twd_box{
+  background-color: #239b76;
+}
+
+.eur_box{
+  background-color: #3b5998;
+}
+
+.from_text{
+  font-size: 20px;
+}
