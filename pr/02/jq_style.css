@@ -1,0 +1,82 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+  }  
+
+*{
+  box-sizing:border-box;
+}
+
+/* ------------------------------- */
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+  background-color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+     /* widthを100%にしてください */
+    width: 100%;
+    padding: 25px 15px;
+    margin: 0 auto;
+    text-align: center;
+  }
+    
+/* ------------------------------- */
+
+
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 30px;
+  background-color: #5dca88;
+  box-shadow: 0px 5px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 10px;
+}
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.practice1_Wrapper h1{
+  padding-top: 20px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.language-text {
+  display:none;
+}
+
+#language-wrapper {
+  
+  height: 150px;
+}
+
+#language-wrapper h1,p{
+  padding-top:10px;
+  width: 60%;
+  margin: 0 auto;
+  
+}
