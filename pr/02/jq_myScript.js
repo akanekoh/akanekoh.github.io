@@ -3,11 +3,19 @@
 $(function() {
     // 「#change-text」要素に対するclickイベントを作成してください
     $('#change-text').click(function(){
-      $('#parisWrapper').hide;
+      $('#text').text('Hello Kitty');
     })
     
     
   });
+
+  $(function() {
+    $('#change-html').click(function(){
+      $('#text').html('<a href="http://www.google.com">Hello, World!</a>');
+    })
+    
+    
+  });  
 
 //practice2_
 $(function() {
