@@ -74,18 +74,18 @@ body {
 /* akanekoh.github.io/ */
 
 .fr_wrapper{
-  background-image: url(akanekoh.github.io/pr/01/image/france.jpg);
+  background-image: url(https://akanekoh.github.io/pr/01/image/france.jpg);
   background-size: cover;
 }
 
 .ja_wrapper{
-  background-image: url(akanekoh.github.io/pr/01/image/japan.jpg);
+  background-image: url(https://akanekoh.github.io/pr/01/image/japan.jpg);
   background-size: cover;
   display: none;
 }
 
 .tw_wrapper{
-  background-image: url(akanekoh.github.io/pr/01/image/taiwan.jpg);
+  background-image: url(https://akanekoh.github.io/pr/01/image/taiwan.jpg);
   background-size: cover;
   display: none;
 }
