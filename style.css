@@ -1,0 +1,113 @@
+/* sharestyle */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* header style */
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.header-right .login {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+/* top-wrapper style */
+.top-wrapper {
+  background-color: #cccccc;
+
+}
+
+.top-wrapper h1{
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color:#fff;
+}
+
+.mainvision {
+  padding: 180px 0 100px 0;
+  background-color: #fff;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  text-align: center;
+}
+
+
+
+
+/* portfolio-wrapper style */
+.portfolio-wrapper {
+  
+}
+
+.vision{
+
+}
+
+.minboxes {
+  background-color: #ff3366;
+}
+
+/* footer style */
+
+footer {
+  padding-top: 30px;
+  background-color: #ff3366;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {  
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px;
+}
+
