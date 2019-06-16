@@ -76,7 +76,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(16, 117, 104, 0.9);
+  background-color: rgba(16, 117, 104, 1);
   /* background-color: rgba(34, 49, 52, 0.9); */
   /* positionプロパティをfixedに、topを0に指定してください */
   position:fixed;
