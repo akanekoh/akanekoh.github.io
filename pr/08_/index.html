@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="Lightbox 2のデモでーす。">
+<title>Lightbox 2 - jQuery Plugin Demo</title>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery-ui-1.8.18.custom.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/lightbox.js"></script>
+ 
+<script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+ 
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+</script>
+</head>
+<body>
+<h1>Lightbox 2のデモでーす。</h1>
+<p>画像をクリックするとポップアップが表示されます。さらに画像の左右にある矢印をクリックするとスライドショーが！</h3>
+<div class="imageRow">
+  <div class="set">
+    <div class="single first">
+      <a href="https://akanekoh.github.io/image/banner1.jpg" rel="lightbox[plants]" title="平面_2010 智慧好程式人形立牌。"><img src="https://akanekoh.github.io/image/banner1.jpg" alt="Plants: image 1 0f 7 thumb" width="200px"/></a>
+    </div>
+    <div class="single">
+      <a href="https://akanekoh.github.io/image/banner1.jpg" rel="lightbox[plants]" title="橙だよー。" ><img src="images/thumb-02-orange.png" alt="Plants: image 2 0f 7 thumb" /></a>
+    </div>
+    <div class="single">
+      <a href="images/03-yellow.png" rel="lightbox[plants]" title="黄だよー。"><img src="images/thumb-03-yellow.png" alt="Plants: image 3 0f 7 thumb" /></a>
+    </div>
+    <div class="single">
+      <a href="images/04-green.png" rel="lightbox[plants]" title="緑だよー。"><img src="images/thumb-04-green.png" alt="Plants: image 4 0f 7 thumb" /></a>
+    </div>
+    <div class="single">
+      <a href="images/05-blue.png" rel="lightbox[plants]" title="青だよー。"><img src="images/thumb-05-blue.png" alt="Plants: image 5 0f 7 thumb" /></a>
+    </div>
+    <div class="single">
+      <a href="images/06-indigo.png" rel="lightbox[plants]" title="藍だよー。"><img src="images/thumb-06-indigo.png" alt="Plants: image 6 0f 7 thumb" /></a>
+    </div>
+    <div class="single last">
+      <a href="images/07-purple.png" rel="lightbox[plants]" title="紫だよー。"><img src="images/thumb-07-purple.png" alt="Plants: image 7 0f 7 thumb" /></a>
+    </div>
+  </div>
+</div>
+ 
+</body>
+</html>
