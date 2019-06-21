@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="Lightbox 2のデモでーす。">
+<title>日本語勉強</title>
+
+ 
+<script>
+  jQuery(document).ready(function($) {
+      $('a').smoothScroll({
+        speed: 1000,
+        easing: 'easeInOutCubic'
+      });
+ 
+      $('.showOlderChanges').on('click', function(e){
+        $('.changelog .old').slideDown('slow');
+        $(this).fadeOut();
+        e.preventDefault();
+      })
+  });
+</script>
+</head>
+<body>
+<h1>五月雨について</h1>
+<p>
+  読み方：さみだれしきですみません<br>
+  別表記：さみだれ式ですみません<br>
+  <br>
+  連絡や事務案件を一度にまとめて送らず、後から追加する形で小刻みに（だらだらと）連絡する格好になってしまっていることを詫びる意味で用いられる表現。電子メールを通じた連絡・質問・依頼などの話題で用いられることがある。<br>
+  <br>
+  「五月雨式」という表現は、業務上の連絡や委託案件を外部に渡す際に、はじめに全ての内容を渡してしまうのではなく部分的に少しずつ渡していって順次対応を期する方法を指す言い方である。あらかじめ合意が得られていれば、準備できた部分から早々に対応を進められる方式となり得る。
+</p>
+<p style="color: blueviolet">
+  小野さん、黄 茜インさん <br>
+  <br>
+お早う御座います。ID連携チームの高です。 <br>
+<br>
+五月雨すみません。新箇所を決めましたので、下記の新箇所に
+コミットしてお願いします。 <br>
+<br>
+■新SVN箇所： <br>
+「」
+<br>
+
+宜しくお願いいたします。 <br>
+
+以上
+
+</p>
+ 
+</body>
+</html>
